@@ -14,6 +14,10 @@ val localProperties = Properties().apply {
     }
 }
 
+base {
+    archivesName.set("MeetKit")
+}
+
 android {
     namespace = "com.livekit.meetkit"
     compileSdk = 37
